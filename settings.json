@@ -1,5 +1,5 @@
 {
-  "name": "AFK Bot",
+  "name": "AFKpromax24/7",
   "bot-account": {
     "username": "Technoblade",
     "password": "",
@@ -11,7 +11,7 @@
     "version": "1.21.1"
   },
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": 0,
     "y": 100,
     "z": 0
