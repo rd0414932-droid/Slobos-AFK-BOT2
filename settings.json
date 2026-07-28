@@ -1,17 +1,17 @@
 {
-  "name": "AFK Bot",
+  "name": "AFKpromax24/7",
   "bot-account": {
     "username": "Technoblade",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobos13.aternos.me",
-    "port": 29195,
+    "ip": "HappySMP95.aternos.me",
+    "port": 28185,
     "version": "1.21.1"
   },
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": 0,
     "y": 100,
     "z": 0
@@ -28,20 +28,21 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 500,
+      "repeat-delay": 300000,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "lagging a bit",
+        "gg",
+        "hey"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 20000,
+    "auto-reconnect-delay": 15000,
+    "max-reconnect-delay": 60000,
+    "auto-respawn": true,
     "periodic-rejoin": {
       "enabled": true,
-      "min-interval": 20,
+      "min-interval": 30,
       "max-interval": 60
     }
   },
@@ -49,32 +50,35 @@
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
+      "radius": 2,
       "speed": 3000
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 4000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 12000
     }
   },
   "modules": {
-    "avoidMobs": true,
+    "avoidMobs": false,
     "combat": true,
-    "beds": true,
+    "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
     "attack-mobs": true,
-    "auto-eat": true
+    "attack-players": true,
+    "retaliate": true,
+    "auto-eat": true,
+    "priority": "attacker"
   },
   "beds": {
-    "pick-up-day": true,
-    "place-night": true
+    "pick-up-day": false,
+    "place-night": false
   },
   "discord": {
     "enabled": true,
@@ -86,6 +90,7 @@
     }
   },
   "chat": {
-    "respond": true
+    "respond": false
   }
 }
+
