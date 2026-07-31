@@ -8,7 +8,7 @@
   "server": {
     "ip": "HappySMP95.aternos.me",
     "port": 28185,
-    "version": "1.21.11"
+    "version": "1.21.1"
   },
   "position": {
     "enabled": false,
@@ -36,7 +36,7 @@
       ]
     },
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 1000,
     "max-reconnect-delay": 2000,
     "periodic-rejoin": {
